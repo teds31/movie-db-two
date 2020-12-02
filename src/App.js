@@ -1,12 +1,14 @@
 import './App.css';
 import MoviesList from './components/MoviesList';
-// import Practice from './components/Practice';
+import Practice from './components/Practice';
 
 function App() {
 	return (
 		<div>
-			{/* <Practice /> */}
 			<MoviesList />
+			<hr />
+			<h1>React Practice Components</h1>
+			<Practice />
 		</div>
 	);
 }
